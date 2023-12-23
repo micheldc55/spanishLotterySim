@@ -72,7 +72,7 @@ def run_simulations_in_batches(
 #TODO: Implement the function optimized_sim_lottery with parallel processing (multithreading or multiprocessing)
 
 if __name__ == "__main__":
-    num_batches = 10
+    num_batches = 100
     simulations_per_batch = 100_000
     your_number = 36576
     possible_numbers = list(range(1, 100001))
