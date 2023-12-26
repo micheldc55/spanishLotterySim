@@ -34,9 +34,11 @@ Calculating the probabilities of winning each prize manually is a daunting task 
 
 To overcome this challenge, several computational methods were employed:
 
-Brute Force Method: Utilizes nested loops to simulate the lottery process. While straightforward, this method is computationally intensive and inefficient.
-Numpy Arrays with Loop: Improves upon the brute force method by using NumPy arrays for generating lottery numbers and a loop to check for winning numbers. This method offers better performance but still has limitations.
-Vectorized Computations: The most elegant and efficient solution. It leverages NumPy's vectorized operations to generate simulations and check for winning numbers, significantly reducing computation time. In tests, for 10,000 lottery simulations, this method was approximately 20 times faster than the brute force approach.
+**Brute Force Method:** Utilizes nested loops to simulate the lottery process. While straightforward, this method is computationally intensive and inefficient.
+
+**Numpy Arrays with Loop:** Improves upon the brute force method by using NumPy arrays for generating lottery numbers and a loop to check for winning numbers. This method offers better performance but still has limitations.
+
+**Vectorized Computations:** The most elegant and efficient solution. It leverages NumPy's vectorized operations to generate simulations and check for winning numbers, significantly reducing computation time. In tests, for 10,000 lottery simulations, this method was approximately 20 times faster than the brute force approach.
 
 # Next Steps
 
@@ -44,3 +46,4 @@ Vectorized Computations: The most elegant and efficient solution. It leverages N
 
 - **Implementing Multiprocessing/Multithreading:** To further improve the efficiency of simulations, especially for very large numbers of simulations.
 - **Statistical Analysis and Visualization:** Analyzing the simulation data in-depth and visualizing the probability distributions and other relevant statistics.
+- **Deployment:** Deploy a batch process that can be run on demand. Deploy with CI/CD
